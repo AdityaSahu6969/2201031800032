@@ -1,0 +1,602 @@
+.reviews-container-child {
+  height: 295px;
+  width: 1903px;
+  position: relative;
+  background-color: var(--color-pink);
+  display: none;
+  max-width: 100%;
+}
+.what-our-users {
+  margin: 0;
+}
+.real-stories-real {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+}
+.what-our-users-container {
+  height: 144px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.reviews-container {
+  align-self: stretch;
+  height: 295px;
+  background-color: var(--color-pink);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-45xl) var(--padding-xl) var(--padding-45xl) 54px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-81xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.user-profile-frame {
+  height: 100px;
+  width: 97px;
+  position: relative;
+  border-radius: var(--br-146xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.emma-stone,
+.fitness-enthusiast {
+  margin: 0;
+}
+.emma-stone-fitness-container {
+  position: relative;
+  font-weight: 500;
+}
+.rectangle-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 30px;
+  max-width: 100%;
+}
+.mia-chang,
+.software-developer {
+  margin: 0;
+}
+.mia-chang-software-container {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.empty-frame-icon2 {
+  height: 103px;
+  width: 98px;
+  position: relative;
+  border-radius: var(--br-30xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-with-text,
+.text-frame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frame-with-text {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 42px;
+  text-align: right;
+}
+.text-frame {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangle-separator {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  height: 175px;
+  width: 762px;
+  outline: 0;
+  border-radius: var(--br-44xl);
+  align-items: flex-start;
+  justify-content: center;
+  padding: 33px 32px;
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.frame-parent5,
+.rectangle-separator,
+.rectangle-separator1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.rectangle-separator1 {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  height: 175px;
+  width: 762px;
+  outline: 0;
+  border-radius: var(--br-44xl);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-23xl) var(--padding-6xl);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.frame-parent5 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.a-i-health-coach-frame,
+.what-our-users-say {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.a-i-health-coach-frame {
+  width: 1668px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-mid);
+}
+.what-our-users-say {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-3xl);
+}
+.emma-stone-frame,
+.icon1 {
+  position: relative;
+  object-fit: cover;
+}
+.icon1 {
+  height: 100px;
+  width: 97px;
+  border-radius: var(--br-146xl);
+  display: none;
+}
+.emma-stone-frame {
+  height: 98px;
+  width: 98px;
+  border-radius: 145.5px;
+  z-index: 1;
+}
+.personalized-story {
+  height: 100px;
+  width: 98px;
+  border-radius: var(--br-146xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 98px;
+}
+.gym-instructor,
+.luke-hamilton {
+  margin: 0;
+}
+.luke-hamilton-gym-container {
+  position: relative;
+  font-weight: 500;
+}
+.frameset-with-two-frames,
+.support-team-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.support-team-frame {
+  flex-direction: row;
+  gap: 0 29px;
+}
+.frameset-with-two-frames {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.noah-clarke,
+.personal-trainer {
+  margin: 0;
+}
+.noah-clarke-personal-container {
+  position: relative;
+  font-weight: 500;
+}
+.health-blogger-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 183px;
+}
+.icon2 {
+  height: 100px;
+  width: 98px;
+  position: relative;
+  border-radius: var(--br-30xl);
+  object-fit: cover;
+}
+.noah-clarke-frame,
+.profile-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.noah-clarke-frame {
+  width: 421px;
+  justify-content: flex-start;
+  gap: 0 42px;
+  text-align: right;
+}
+.profile-frame {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.a-i-health-support-child {
+  align-self: stretch;
+  height: 175px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.never-felt-healthier,
+.thanks-to-tailored {
+  margin: 0;
+}
+.never-felt-healthier-container {
+  width: 749px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+  z-index: 1;
+  margin-top: -131px;
+}
+.a-i-health-support {
+  width: 762px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 175px;
+  max-width: 100%;
+}
+.a-i-health-support1,
+.sophia-perez-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.a-i-health-support1 {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  height: 175px;
+  width: 762px;
+  outline: 0;
+  border-radius: var(--br-44xl);
+  justify-content: flex-end;
+  padding: 35px var(--padding-sm);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.sophia-perez-text {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-with-text-and-image,
+.olivia-wells-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.olivia-wells-frame {
+  width: 1640px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.frame-with-text-and-image {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px 0;
+}
+.icon3 {
+  height: 101px;
+  width: 98px;
+  position: relative;
+  border-radius: var(--br-30xl);
+  object-fit: cover;
+}
+.health-blogger,
+.olivia-wells {
+  margin: 0;
+}
+.olivia-wells-health-container {
+  position: relative;
+  font-weight: 500;
+}
+.container,
+.customer-reviews-inner {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 29px;
+}
+.customer-reviews-inner {
+  width: 383px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nutritionist,
+.sophia-perez {
+  margin: 0;
+}
+.sophia-perez-nutritionist-container {
+  position: relative;
+  font-weight: 500;
+}
+.icon4 {
+  height: 100px;
+  width: 99px;
+  position: relative;
+  border-radius: 49.5px;
+  object-fit: cover;
+}
+.sophia-perez-nutritionist-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 29px;
+  max-width: 100%;
+  text-align: right;
+}
+.customer-reviews {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.trusted-health-a-i,
+.trusted-health-a-i1 {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  height: 175px;
+  width: 762px;
+  outline: 0;
+  border-radius: var(--br-44xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-lgi);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  max-width: 100%;
+}
+.trusted-health-a-i1 {
+  justify-content: center;
+  padding: var(--padding-24xl) 52px;
+}
+.frame-parent6,
+.support-team-insights {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent6 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.support-team-insights {
+  width: 1680px;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.customer-reviews-parent,
+.user-testimonials-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.customer-reviews-parent {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  gap: 10px 0;
+}
+.user-testimonials-frame {
+  flex: 1;
+  align-items: flex-start;
+  gap: 161px 0;
+}
+.frame-set,
+.reviews {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-set {
+  width: 1814px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.reviews {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 140px;
+  gap: 116px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1600px) {
+  .frame-parent5,
+  .frame-parent6,
+  .sophia-perez-text {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .reviews-container {
+    padding-left: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .text-frame {
+    flex-wrap: wrap;
+  }
+  .user-testimonials-frame {
+    gap: 161px 0;
+  }
+  .reviews {
+    gap: 116px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .emma-stone-fitness-container,
+  .mia-chang-software-container {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-with-text {
+    flex-wrap: wrap;
+    gap: 0 42px;
+  }
+  .luke-hamilton-gym-container,
+  .noah-clarke-personal-container {
+    font-size: var(--font-size-10xl);
+  }
+  .profile-frame {
+    flex-wrap: wrap;
+  }
+  .never-felt-healthier-container,
+  .olivia-wells-health-container,
+  .sophia-perez-nutritionist-container {
+    font-size: var(--font-size-10xl);
+  }
+  .customer-reviews {
+    flex-wrap: wrap;
+  }
+  .user-testimonials-frame {
+    gap: 161px 0;
+  }
+  .reviews {
+    gap: 116px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .emma-stone-fitness-container {
+    font-size: var(--font-size-3xl);
+  }
+  .rectangle-frame {
+    flex-wrap: wrap;
+  }
+  .mia-chang-software-container {
+    font-size: var(--font-size-3xl);
+  }
+  .emma-stone-frame,
+  .personalized-story {
+    flex: 1;
+  }
+  .luke-hamilton-gym-container {
+    font-size: var(--font-size-3xl);
+  }
+  .support-team-frame {
+    flex-wrap: wrap;
+  }
+  .noah-clarke-personal-container {
+    font-size: var(--font-size-3xl);
+  }
+  .noah-clarke-frame {
+    flex-wrap: wrap;
+    gap: 0 42px;
+  }
+  .never-felt-healthier-container {
+    font-size: var(--font-size-3xl);
+  }
+  .icon3 {
+    flex: 1;
+  }
+  .olivia-wells-health-container {
+    font-size: var(--font-size-3xl);
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .sophia-perez-nutritionist-container {
+    font-size: var(--font-size-3xl);
+  }
+  .icon4 {
+    flex: 1;
+  }
+  .sophia-perez-nutritionist-parent {
+    flex-wrap: wrap;
+  }
+  .user-testimonials-frame {
+    gap: 161px 0;
+  }
+}

@@ -1,0 +1,375 @@
+.frame-child {
+  height: 295px;
+  width: 1903px;
+  position: relative;
+  background-color: var(--color-pink);
+  display: none;
+  max-width: 100%;
+}
+.ai-guidance,
+.transform-your-health {
+  margin: 0;
+}
+.transform-your-health-container {
+  margin: 0;
+  width: 1348px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--color-pink);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-230xl);
+  box-sizing: border-box;
+  min-height: 295px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-81xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.advanced-technology-for,
+.optimal-wellness {
+  margin: 0;
+}
+.advanced-technology-for-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.track-your-health {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+}
+.advanced-technology-for-optima-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 92px 0;
+  max-width: 100%;
+}
+.frame-item {
+  height: 130px;
+  width: 443px;
+  position: relative;
+  border-radius: var(--br-46xl);
+  background-color: var(--color-salmon-100);
+  display: none;
+  max-width: 100%;
+}
+.learn-more {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.frame-inner,
+.rectangle-group {
+  border-radius: var(--br-46xl);
+  background-color: var(--color-salmon-100);
+  max-width: 100%;
+}
+.rectangle-group {
+  flex: 0.9229;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-17xl);
+  box-sizing: border-box;
+  min-width: 288px;
+  white-space: nowrap;
+}
+.frame-inner {
+  height: 130px;
+  width: 443px;
+  position: relative;
+  display: none;
+}
+.next {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.rectangle-container {
+  flex: 1;
+  border-radius: var(--br-46xl);
+  background-color: var(--color-salmon-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-17xl) var(--padding-xl) var(--padding-17xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  min-width: 288px;
+  max-width: 100%;
+  text-align: center;
+}
+.frame-parent1 {
+  flex: 1;
+  flex-direction: row;
+  gap: 0 32px;
+}
+.frame-div,
+.frame-parent1,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-29xl);
+}
+.frame-div {
+  flex: 1;
+  flex-direction: column;
+  gap: 139px 0;
+  min-width: 599px;
+}
+.div {
+  align-self: stretch;
+  height: 1133px;
+  position: relative;
+  border-radius: var(--br-177xl);
+  background-color: var(--color-gold-100);
+  display: none;
+}
+.smart-analytics {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.actionabl-health-recommendatio,
+.insights-generated-from {
+  margin: 0;
+}
+.insights-generated-from-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  z-index: 1;
+}
+.frame-wrapper1,
+.smart-analytics-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.smart-analytics-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 74px 0;
+}
+.frame-wrapper1 {
+  width: 735px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.empty-frame-icon {
+  align-self: stretch;
+  height: 745px;
+  position: relative;
+  border-radius: var(--br-177xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-container,
+.parent {
+  display: flex;
+  max-width: 100%;
+}
+.parent {
+  width: 869px;
+  border-radius: var(--br-177xl);
+  background-color: var(--color-gold-100);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-66xl) 0 0;
+  box-sizing: border-box;
+  gap: 64px 0;
+  min-width: 869px;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+}
+.frame-container {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 55px;
+}
+.features-inner,
+.features1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.features-inner {
+  width: 1889px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.features1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-169xl);
+  gap: 152px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1525px) {
+  .parent {
+    flex: 1;
+  }
+  .frame-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .rectangle-parent {
+    padding-left: var(--padding-105xl);
+    padding-right: var(--padding-105xl);
+    box-sizing: border-box;
+  }
+  .advanced-technology-for-optima-parent {
+    gap: 92px 0;
+  }
+  .frame-div {
+    gap: 139px 0;
+  }
+  .parent {
+    gap: 64px 0;
+    padding-top: var(--padding-36xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .features1 {
+    gap: 152px 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  .transform-your-health-container {
+    font-size: var(--font-size-31xl);
+  }
+  .rectangle-parent {
+    padding-left: var(--padding-43xl);
+    padding-right: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+  .advanced-technology-for-container {
+    font-size: var(--font-size-37xl);
+  }
+  .track-your-health {
+    font-size: var(--font-size-5xl);
+  }
+  .next {
+    font-size: var(--font-size-19xl);
+  }
+  .frame-parent1 {
+    flex-wrap: wrap;
+  }
+  .frame-div {
+    min-width: 100%;
+  }
+  .smart-analytics {
+    font-size: var(--font-size-32xl);
+  }
+  .insights-generated-from-container {
+    font-size: var(--font-size-10xl);
+  }
+  .smart-analytics-parent {
+    gap: 74px 0;
+  }
+  .parent {
+    padding-top: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .frame-container {
+    gap: 0 55px;
+  }
+  .features1 {
+    gap: 152px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .transform-your-health-container {
+    font-size: var(--font-size-11xl);
+  }
+  .rectangle-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .advanced-technology-for-container {
+    font-size: var(--font-size-23xl);
+  }
+  .track-your-health {
+    font-size: var(--font-size-lg);
+  }
+  .advanced-technology-for-optima-parent {
+    gap: 92px 0;
+  }
+  .rectangle-group {
+    flex: 1;
+  }
+  .next {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-parent1 {
+    gap: 0 32px;
+  }
+  .frame-div {
+    gap: 139px 0;
+  }
+  .smart-analytics {
+    font-size: var(--font-size-19xl);
+  }
+  .insights-generated-from-container {
+    font-size: var(--font-size-3xl);
+  }
+  .smart-analytics-parent {
+    gap: 74px 0;
+  }
+  .parent {
+    gap: 64px 0;
+  }
+}

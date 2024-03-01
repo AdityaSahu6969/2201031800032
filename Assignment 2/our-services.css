@@ -1,0 +1,545 @@
+.services-container {
+  align-self: stretch;
+  height: 295px;
+  position: relative;
+  background-color: var(--color-pink);
+}
+.frame-guidance-icon {
+  align-self: stretch;
+  height: 408px;
+  position: relative;
+  border-radius: var(--br-341xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.analysis-guidance-frames-child {
+  height: 30px;
+  width: 108px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-khaki);
+  display: none;
+}
+.analysis {
+  position: relative;
+  z-index: 1;
+}
+.analysis-guidance-frames {
+  border-radius: var(--br-mini);
+  background-color: var(--color-khaki);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-base) var(--padding-10xs)
+    var(--padding-xs);
+}
+.analysis-guidance-frames-item {
+  height: 30px;
+  width: 108px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.guidance {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.analysis-guidance-frames-inner,
+.analysis-guidance-frames1 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+}
+.analysis-guidance-frames1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-3xs) var(--padding-10xs)
+    var(--padding-7xs);
+}
+.analysis-guidance-frames-inner {
+  height: 30px;
+  width: 108px;
+  position: relative;
+  display: none;
+}
+.tracking {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.analysis-guidance-frames2 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-sm) var(--padding-10xs)
+    var(--padding-3xs);
+}
+.frame-guidance-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 23px;
+  max-width: 100%;
+}
+.personalized-health {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.health-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.expert-health-analysis,
+.wellness-insights {
+  margin: 0;
+}
+.expert-health-analysis-container {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.expert-health-analysis-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-7xl);
+  font-size: var(--font-size-5xl);
+}
+.frame-analysis-frame {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 27px 0;
+}
+.frame-analysis,
+.frame-analysis-frame,
+.frame-analysis-wrapper,
+.frames-pair {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frames-pair {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.frame-analysis,
+.frame-analysis-wrapper {
+  flex-direction: column;
+}
+.frame-analysis {
+  width: 741px;
+  align-items: flex-end;
+  gap: 11px 0;
+}
+.frame-analysis-wrapper {
+  width: 1000px;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.blank-line {
+  margin: 0;
+}
+.custom-fitness-plans-container {
+  width: 0;
+  height: 48px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.dynamic-fitness-label {
+  height: 214px;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-with-empty-space {
+  height: 479px;
+  width: 741px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -442px;
+  left: -534px;
+  border-radius: var(--br-341xl);
+  object-fit: cover;
+}
+.diagnosis-consultation-frames {
+  align-self: stretch;
+  height: 408px;
+  position: relative;
+  border-radius: 540px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dynamic-fitness-text-child {
+  height: 30px;
+  width: 108px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.nutrition {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.dynamic-fitness-text,
+.dynamic-fitness-text-item {
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+}
+.dynamic-fitness-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-sm) var(--padding-10xs)
+    var(--padding-3xs);
+}
+.dynamic-fitness-text-item {
+  height: 30px;
+  width: 140px;
+  position: relative;
+  display: none;
+}
+.optimization {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.dynamic-fitness-text1 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-3xs) var(--padding-10xs)
+    var(--padding-6xs);
+}
+.frame-nutrition-analysis {
+  width: 309px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dynamic-fitness {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+  font-family: inherit;
+}
+.diagnosis-consult-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 15px 0;
+}
+.nutrition-optimization-rect {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.custom-fitness-plans,
+.grow-with-you {
+  margin: 0;
+}
+.custom-fitness-plans-container1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.expert-health-text,
+.frame-analysis-panel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.expert-health-text {
+  flex-direction: column;
+  gap: 35px 0;
+}
+.frame-analysis-panel {
+  flex-direction: row;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+}
+.diagnosis-consultation-frames-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.frame-with-rectangle,
+.parent-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-with-rectangle {
+  width: 741px;
+  align-items: flex-start;
+  position: relative;
+}
+.parent-frame {
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 408px 0;
+  box-sizing: border-box;
+  gap: 0 66px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.diagnosis-consult-frame-child {
+  height: 30px;
+  width: 108px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.diagnosis {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.diagnosis-consult-frame-item,
+.diagnosis-consult-frame1 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+}
+.diagnosis-consult-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-5xs) var(--padding-10xs)
+    var(--padding-8xs);
+}
+.diagnosis-consult-frame-item {
+  height: 30px;
+  width: 140px;
+  position: relative;
+  display: none;
+}
+.consultation {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.diagnosis-consult-frame2 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-3xs) var(--padding-10xs)
+    var(--padding-6xs);
+}
+.consultation-support-frame,
+.support-frame-analysis {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.consultation-support-frame {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.support-frame-analysis {
+  width: 343px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dedicated-support {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+  font-family: inherit;
+}
+.dedicated-support-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px 0;
+  max-width: 100%;
+}
+.optimal-health,
+.personal-consultation-and {
+  margin: 0;
+}
+.personal-consultation-and-container {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.frame-diagnosis-analysis {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px 0;
+  max-width: 100%;
+}
+.our-services,
+.personal-consult-text {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.personal-consult-text {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 364px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.our-services {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 141px;
+  gap: 57px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1800px) {
+  .parent-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .parent-frame {
+    gap: 0 66px;
+    padding-bottom: var(--padding-246xl);
+    box-sizing: border-box;
+  }
+  .personal-consult-text {
+    padding-left: 182px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .dynamic-fitness,
+  .personalized-health {
+    font-size: var(--font-size-13xl);
+  }
+  .expert-health-text {
+    gap: 35px 0;
+  }
+  .parent-frame {
+    gap: 0 66px;
+    padding-bottom: 172px;
+    box-sizing: border-box;
+  }
+  .dedicated-support {
+    font-size: var(--font-size-13xl);
+  }
+  .frame-diagnosis-analysis {
+    gap: 36px 0;
+  }
+  .personal-consult-text {
+    padding-left: 91px;
+    box-sizing: border-box;
+  }
+  .our-services {
+    gap: 57px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .analysis,
+  .guidance,
+  .tracking {
+    font-size: var(--font-size-base);
+  }
+  .frame-guidance-frame {
+    flex-wrap: wrap;
+  }
+  .personalized-health {
+    font-size: var(--font-size-5xl);
+  }
+  .expert-health-analysis-container {
+    font-size: var(--font-size-lgi);
+  }
+  .custom-fitness-plans-container,
+  .nutrition,
+  .optimization {
+    font-size: var(--font-size-base);
+  }
+  .dynamic-fitness {
+    font-size: var(--font-size-5xl);
+  }
+  .custom-fitness-plans-container1 {
+    font-size: var(--font-size-lgi);
+  }
+  .consultation,
+  .diagnosis {
+    font-size: var(--font-size-base);
+  }
+  .consultation-support-frame {
+    flex-wrap: wrap;
+  }
+  .dedicated-support {
+    font-size: var(--font-size-5xl);
+  }
+  .personal-consultation-and-container {
+    font-size: var(--font-size-lgi);
+  }
+  .personal-consult-text {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
